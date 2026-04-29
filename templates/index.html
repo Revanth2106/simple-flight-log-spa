@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Log SPA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div id="loginPage" class="card">
+        <h1>Flight Log Login</h1>
+
+        <p>Default login: <b>admin</b> / <b>admin123</b></p>
+
+        <input id="loginUsername" placeholder="Username">
+        <input id="loginPassword" type="password" placeholder="Password">
+
+        <button onclick="login()">Login</button>
+
+        <p id="loginMessage"></p>
+    </div>
+
+    <div id="appPage" style="display:none;">
+
+        <div class="header">
+            <h1>Flight Log SPA</h1>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+        <div class="card">
+            <h2 id="formTitle">Create Flight Log</h2>
+
+            <input id="tailNumber" placeholder="Tail Number">
+            <input id="flightID" placeholder="Flight ID">
+            <input id="takeoff" type="datetime-local">
+            <input id="landing" type="datetime-local">
+            <input id="duration" placeholder="Duration, e.g. 2h 30m">
+
+            <button onclick="saveFlightLog()">Save Flight Log</button>
+            <button onclick="clearForm()">Clear</button>
+
+            <p id="formMessage"></p>
+        </div>
+
+        <div class="card">
+            <h2>Search Flight Logs</h2>
+
+            <input id="searchFlightID" placeholder="Search by Flight ID">
+            <button onclick="loadFlightLogs()">Search</button>
+            <button onclick="clearSearch()">Show All</button>
+        </div>
+
+        <div class="card">
+            <h2>All Flight Logs</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tail Number</th>
+                        <th>Flight ID</th>
+                        <th>Takeoff</th>
+                        <th>Landing</th>
+                        <th>Duration</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="flightLogTable"></tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Create User</h2>
+
+            <input id="newUsername" placeholder="New Username">
+            <input id="newPassword" type="password" placeholder="New Password">
+
+            <button onclick="createUser()">Create User</button>
+
+            <p id="userMessage"></p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
