@@ -35,10 +35,12 @@ simple-flight-log-spa-main
 
 (Note: GitHub automatically adds "-main" to the folder name)
 
-4. Open terminal inside this folder
+4. Open terminal inside this folder by running, "cd simple-flight-log-spa-main"
+
 
 5. Run:
-python app.py
+python app.py and the directory should look like the following, " Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
+
 
 6. Open browser:
 http://127.0.0.1:5000
