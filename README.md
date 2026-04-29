@@ -26,36 +26,21 @@ Password: admin123
 
 ## How to Run
 
-### 1. Install Python
+1. Download the ZIP from GitHub
 
-Make sure Python is installed.
+2. Extract the ZIP
 
-Check:
+3. Open the extracted folder:
+simple-flight-log-spa-main
 
-```bash
-python --version
-```
+(Note: GitHub automatically adds "-main" to the folder name)
 
-### 2. Install Flask
+4. Open terminal inside this folder
 
-Inside this project folder, run:
-
-```bash
-pip install flask
-```
-
-### 3. Run the app
-
-```bash
+5. Run:
 python app.py
-```
 
-### 4. Open in browser
-
-Go to:
-
-```txt
+6. Open browser:
 http://127.0.0.1:5000
-```
 
 
