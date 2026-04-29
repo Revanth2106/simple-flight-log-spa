@@ -39,7 +39,7 @@ simple-flight-log-spa-main
 
 
 5. Run:
-python app.py and the directory should look like the following, " Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
+python app.py and the directory should look like the following, "Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
 
 
 6. Open browser:
