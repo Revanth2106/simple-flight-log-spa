@@ -38,8 +38,8 @@ simple-flight-log-spa-main
 4. Open terminal inside this folder by running, "cd simple-flight-log-spa-main"
 
 
-5. Run:
-python app.py and the directory should look like the following, "Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
+5. Run
+python app.py from the appropriate directory which should look like the following, "Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
 
 
 6. Open browser:
