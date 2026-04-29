@@ -35,14 +35,16 @@ simple-flight-log-spa-main
 
 (Note: GitHub automatically adds "-main" to the folder name)
 
-4. Open terminal inside this folder by running, "cd simple-flight-log-spa-main"
+4. Install Flask inside PyCharm using the command, "pip install flask"
+
+5. Open terminal inside this folder by running, "cd simple-flight-log-spa-main"
 
 
-5. Run
+6. Run
 python app.py from the appropriate directory which should look like the following, "Downloads\simple-flight-log-spa-main\simple-flight-log-spa-main>python app.py"
 
 
-6. Open browser:
+7. Open browser:
 http://127.0.0.1:5000
 
 
